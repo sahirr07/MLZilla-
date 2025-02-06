@@ -7,6 +7,6 @@ if 'TotalCharges' in data.columns:
     data['TotalCharges'] = pd.to_numeric(data['TotalCharges'], errors='coerce')
 report = sv.analyze(data)
 
-report.show_html('MLZilla_EDA_Report.html')
+report.show_html('index.html')
 
 print("EDA report generated successfully: index.html")
