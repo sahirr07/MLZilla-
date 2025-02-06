@@ -9,4 +9,4 @@ report = sv.analyze(data)
 
 report.show_html('MLZilla_EDA_Report.html')
 
-print("EDA report generated successfully: MLZilla_EDA_Report.html")
+print("EDA report generated successfully: index.html")
